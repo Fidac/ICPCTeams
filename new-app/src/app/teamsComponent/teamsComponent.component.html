@@ -1,0 +1,11 @@
+<h1>Teams:</h1>
+<ul *ngIf="brew">
+    <li *ngFor="let b of brew">
+
+        <p class="Name">Name: {{b.name}}</p>
+        <p class="Rank">Rank: {{b.rank}}</p>
+        <p class="State">State: {{b.state}}</p>
+<!--        <p class="slug">Slug: {{b.character.house.slug}}</p>-->
+<!--        <a href="{{b.website_url}}" class="site">site</a>-->
+    </li>
+</ul>

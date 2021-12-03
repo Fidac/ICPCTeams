@@ -1,0 +1,11 @@
+<h1>What is Dead May Never Die.</h1>
+<ul *ngIf="brew">
+    <li *ngFor="let b of brew">
+
+        <p class="Sentence">Sentence: {{b.sentence}}</p>
+        <p class="name">Name: {{b.character.name}}</p>
+        <p class="House">House: {{b.character.house.name}}</p>
+        <p class="slug">Slug: {{b.character.house.slug}}</p>
+        <a href="{{b.website_url}}" class="site">site</a>
+    </li>
+</ul>
