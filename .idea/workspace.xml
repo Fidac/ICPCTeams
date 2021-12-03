@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7701655f-5954-403e-9038-388ba0ca1172" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataModel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/JmsResponseReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/JmsTeamStatusMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/ResponseReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/SenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/java/messaging/TeamStatusMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/messaging/src/test/java/tests/JmsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/DTOs/OperationOutcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/DTOs/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/DTOs/StudentAgeGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/builder/ContestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/builder/PersonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/builder/TeamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/controllers/ContestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/controllers/TeamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/data/ContestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/data/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/data/TeamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/TeamStatusReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/jms/JmsResponseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/jms/JmsTeamStatusReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/jms/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/jms/ResponseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/messaging/jms/listener/TeamStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/model/Contest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/services/ContestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/services/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/services/SuperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/services/TeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataModel/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/http.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/http.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/land-ofalways-winter/land-ofalways-winter.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/land-ofalways-winter/land-ofalways-winter.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/land-ofalways-winter/land-ofalways-winter.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/land-ofalways-winter/land-ofalways-winter.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/north-of-the-wall/north-of-the-wall.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/north-of-the-wall/north-of-the-wall.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/north-of-the-wall/north-of-the-wall.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/north-of-the-wall/north-of-the-wall.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/teamsComponent/teamsComponent.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/teamsComponent/teamsComponent.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/teamsComponent/teamsComponent.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/teamsComponent/teamsComponent.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/winter-fell/winter-fell.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/winter-fell/winter-fell.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/winter-fell/winter-fell.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/app/winter-fell/winter-fell.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-app/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataModel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/AppStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/dataModel/AppStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/controller/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/model/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/model/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/main/java/edu/baylor/cs/se/hibernate/services/SuperRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModel/src/test/java/edu/baylor/cs/se/hibernate/ExampleTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21n1qTO3YGohMTSzlK9gLLnbUfH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7701655f-5954-403e-9038-388ba0ca1172" name="Default Changelist" comment="" />
+      <created>1638562235594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638562235594</updated>
+      <workItem from="1638562240398" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
